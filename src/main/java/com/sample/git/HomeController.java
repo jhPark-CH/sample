@@ -30,7 +30,7 @@ public class HomeController {
 
         return "home";
     }
-
+    // development..
     @RequestMapping(value = "/test", method = RequestMethod.GET)
     public String test(ModelMap map) {
         map.put("serverTime", "2014/06/15 123123");
